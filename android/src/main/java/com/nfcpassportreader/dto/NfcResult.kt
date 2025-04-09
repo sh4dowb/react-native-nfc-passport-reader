@@ -12,4 +12,5 @@ data class NfcResult(
   var mrz: String? = null,
   var nationality: String? = null,
   var originalFacePhoto: NfcImage? = null,
+  var rawFiles: Map<String, ByteArray> = null
 )
